@@ -2,8 +2,7 @@ from flask import Flask, send_file, abort, jsonify, request
 import os
 import asyncio
 from hypercorn.asyncio import serve
-from hypercorn.config import Config
-import aiohttp
+from back_end.scripts import replica1_script
 
 app = Flask(__name__)
 
@@ -29,7 +28,4 @@ def cache_video(filename):
 if __name__ == "__main__":
     # app.run(host='0.0.0.0', port=9002)
 
-    config = Config()
-    config.bind = ["0.0.0.0:9002"]
-    config.alpn_protocols = ["h3"]  # Enable HTTP/3
-    asyncio.run(serve(app, config))
+    asyncio.run(serve(app, replica1_script.config))

@@ -5,6 +5,9 @@
   </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/back_end/videos" />
+      <excludeFolder url="file://$MODULE_DIR$/back_end/videos1" />
+      <excludeFolder url="file://$MODULE_DIR$/back_end/videos2" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="inheritedJdk" />
