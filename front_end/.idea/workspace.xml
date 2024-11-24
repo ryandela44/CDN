@@ -5,43 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f08b5b9f-0fd5-4168-b0e0-0e0be3b0c0b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/front_end.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/App/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/App/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Card/Card.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Card/Card.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Header/Header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Home/Home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Home/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/CDN.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/CDN.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../back_end/__init--.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../back_end/controller/__init--.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../back_end/servers/__init--.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/VideoPlayer/VideoPlayer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/VideoPlayer/VideoPlayer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../back_end/controller/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/../back_end/controller/controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../back_end/servers/config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../back_end/servers/hypercorn_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back_end/scripts/controller_script.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back_end/scripts/origin_script.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back_end/scripts/replica1_script.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../back_end/servers/origin_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/../back_end/servers/origin_server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../back_end/servers/replicate_server_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../back_end/servers/replicate_server_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back_end/servers/replicate_server_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../back_end/servers/replicate_server_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/App/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/App/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/App/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Card/Card.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Card/Card.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Card/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Card/Card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Home/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/Home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +106,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732352768105</updated>
-      <workItem from="1732352769801" duration="10205000" />
+      <workItem from="1732352769801" duration="17806000" />
     </task>
     <servers />
   </component>
