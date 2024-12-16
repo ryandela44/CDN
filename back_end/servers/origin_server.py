@@ -8,7 +8,7 @@ from hypercorn.config import Config
 import os
 
 app = Flask(__name__)
-app.config['MAX_CONTENT_LENGTH'] = 5 * 1024 * 1024 * 1024  # 5 GB
+
 
 @app.route('/video/<filename>')
 def stream_video(filename):
@@ -27,7 +27,6 @@ async def push_video():
 
     path = os.path.join('/', 'Users', 'macbookpro', 'PycharmProjects', 'CDN', 'back_end', 'videos', filename)
     if os.path.exists(path):
-        print(path)
         url = f"{replica}/cache_video/{filename}"
 
         async with ClientSession(timeout=ClientTimeout(total=600)) as session:
@@ -61,7 +60,7 @@ if __name__ == "__main__":
     # app.run(host='0.0.0.0', port=9001)
     config = Config()
     config.bind = ["0.0.0.0:9001"]
-    config.alpn_protocols = ["h3", "h2", "http/1.1"]  # Include both HTTP/3 and HTTP/2
+    config.alpn_protocols = ["h3", "h2"]  # Include both HTTP/3 and HTTP/2
     config.certfile = "/Users/macbookpro/cert.pem"
     config.keyfile = "/Users/macbookpro/privkey.pem"
     config.ssl_handshake_timeout = 5

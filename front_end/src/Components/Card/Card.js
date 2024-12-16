@@ -1,5 +1,5 @@
 import React from "react";
-import "./Card.css"; // Ensure you import styles if you separate them
+import "./Card.css";
 
 const Card = ({ title, video, author, stats, onClick }) => {
     return (

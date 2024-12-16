@@ -1,11 +1,10 @@
-from flask import Flask, send_file, abort, jsonify, request
+from flask import Flask, send_file, jsonify, request
 import os
 import asyncio
 from hypercorn.asyncio import serve
 from hypercorn.config import Config
 
 app = Flask(__name__)
-app.config['MAX_CONTENT_LENGTH'] = 5 * 1024 * 1024 * 1024  # 5 GB
 
 
 @app.route('/video/<filename>')
@@ -38,10 +37,9 @@ def is_cached(filename):
 
 
 if __name__ == "__main__":
-    # app.run(host='0.0.0.0', port=9002)
     config = Config()
     config.bind = ["0.0.0.0:9002"]
-    config.alpn_protocols = ["h3", "h2", "http/1.1"]  # Include both HTTP/3 and HTTP/2
+    config.alpn_protocols = ["h3", "h2"]  # Include both HTTP/3 and HTTP/2
     config.certfile = "/Users/macbookpro/cert.pem"
     config.keyfile = "/Users/macbookpro/privkey.pem"
     config.ssl_handshake_timeout = 5

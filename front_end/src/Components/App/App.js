@@ -8,7 +8,6 @@ function App() {
       <Router>
         <Routes>
             <Route path="*" element={<Home/>}/>
-            <Route path="/video/:filename" component={<VideoPlayer/>}/>
         </Routes>
       </Router>
 
