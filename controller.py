@@ -25,7 +25,15 @@ async def load_balance(request):
     if not filename:
         return web.json_response({"error": "Filename is missing"}, status=400)
     replica = round_robin_select()
-    raise web.HTTPFound(f"{replica}/video/{filename}")
+    # Map the chosen replica to a path on Nginx
+    if replica == f"http://localhost:{REPLICA_PORT_1}":
+        # Use the /replica1/ path
+        redirect_url = f"https://localhost:9008/replica1/video/{filename}"
+    else:
+        # Use the /replica2/ path
+        redirect_url = f"https://localhost:9008/replica2/video/{filename}"
+
+    raise web.HTTPFound(redirect_url)
 
 
 async def cache_videos():
